@@ -20,3 +20,12 @@ User avatar
 который нужно отправить в качестве ответа на это задание.
 
 Напишите текст"""
+
+from selenium import webdriver
+import time
+
+br=webdriver.Chrome()
+try:
+    br.get('http://suninjuly.github.io/find_xpath_form')
+
+finally:
